@@ -1,0 +1,16 @@
+.comment-form {
+  margin: 10px auto;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #efefef;
+}
+
+.comment-form input {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 0;
+  border: none;
+  color: #999;
+  background: white;
+}
