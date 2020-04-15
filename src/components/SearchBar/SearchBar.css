@@ -2,12 +2,12 @@
   border-bottom: 1px solid #3333;
   height: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background: #ffffff;
 }
 .search-form {
-  width: 150px;
+  width: 33%;
   font-size: 14px;
 }
 .search-form input {
@@ -15,7 +15,25 @@
   color: #262626;
 }
 .image-wrapper {
+  margin: 0 5%;
+  width: 33%;
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image-wrapper img {
+  width: 20%;
+  margin: 0 1%;
+}
+
+.image-wrapper p {
+  opacity: .5
+}
+
+.image-wrapper i {
+  margin: 0 2%;
 }
 
 .logo-image {
@@ -23,9 +41,13 @@
 }
 
 .social-wrapper {
+  width: 33%;
   display: flex;
+  justify-content: flex-end;
+  margin: 0 5%;
 }
 
 .social {
   width: 50px;
 }
+

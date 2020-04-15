@@ -15,7 +15,7 @@ const PostsPage = () => {
       {data.map(post => {
         console.log(post);
         return <Post 
-        key={post.username}
+        key={post.id}
         post={post} />;
       })}
     </div>
