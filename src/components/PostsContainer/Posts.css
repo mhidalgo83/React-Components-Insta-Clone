@@ -3,6 +3,7 @@
   width: 33%;
   min-width: 400px;
   margin: 5px auto;
+  background: white;
 }
 .post-header{
   display: flex;
@@ -42,6 +43,7 @@
 .like-section {
   display: flex;
   justify-content: flex-start;
+  margin: 2% 0;
 }
 
 .like-section-wrapper {
@@ -50,7 +52,9 @@
   margin: 10px;
 }
 .like-number {
-  width: 100px;
-  margin: 15px 0px;
-  font-size: 16px;
+  font-size: 14px;
+  display: flex;
+  justify-self: start;
+  margin: auto;
+  width: 95%;
 }
